@@ -14,4 +14,4 @@ The patterns can be categorized by their intent or purpose:
 
 ## Credits
 
-This project is highly based in [Refactoring Guru](https://refactoring.guru/) and Rodrigo Branas's Clean Code and Clean Architecture course. I highly recommend their content.
+This project is highly based in [Refactoring Guru](https://refactoring.guru/) and [Rodrigo Branas's Clean Code and Clean Architecture course](https://app.branas.io/clean-code-e-clean-architecture). I highly recommend their content.
