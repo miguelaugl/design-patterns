@@ -1,6 +1,6 @@
-import AbstractWidgetFactory from "./AbstractWidgetFactory"
-import Button from "./Button"
-import Label from "./Label"
+import AbstractWidgetFactory from './AbstractWidgetFactory'
+import Button from './Button'
+import Label from './Label'
 
 export default class View {
   label: Label

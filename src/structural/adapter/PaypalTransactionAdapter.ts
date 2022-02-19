@@ -1,10 +1,10 @@
-import PaypalTransaction from "./PaypalTransaction";
-import Transaction from "./Transaction";
+import PaypalTransaction from './PaypalTransaction'
+import Transaction from './Transaction'
 
 export default class PaypalTransactionAdapter implements Transaction {
-  trackNumber: string;
-  amount: number;
-  status: string;
+  trackNumber: string
+  amount: number
+  status: string
 
   constructor (paypalTransaction: PaypalTransaction) {
     this.trackNumber = String(paypalTransaction.id)

@@ -1,7 +1,7 @@
-import Label from "./Label";
+import Label from './Label'
 
 export default class LightLabel implements Label {
-  color: string;
+  color: string
 
   constructor () {
     this.color = 'black'

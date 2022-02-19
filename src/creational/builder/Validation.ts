@@ -1,3 +1,3 @@
 export default interface Validation {
-  validate(input: object): Error | null
+  validate: (input: object) => Error | null
 }

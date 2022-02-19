@@ -1,7 +1,7 @@
-import Beer from "./Beer"
-import Invoice from "./Invoice"
-import Water from "./Water"
-import Whisky from "./Whisky"
+import Beer from './Beer'
+import Invoice from './Invoice'
+import Water from './Water'
+import Whisky from './Whisky'
 
 it('should create an invoice and calculate tax', () => {
   const invoice = new Invoice()

@@ -1,9 +1,9 @@
-import Validation from './Validation';
+import Validation from './Validation'
 
 export class RequiredValidation implements Validation {
-  constructor(readonly field: string) {}
+  constructor (readonly field: string) {}
 
-  validate(input: any): Error | null {
+  validate (input: any): Error | null {
     return input[this.field as keyof object] ? null : new Error(`${this.field} field is required`)
   }
 }

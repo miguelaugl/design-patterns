@@ -1,10 +1,10 @@
-import StripeTransaction from "./StripeTransaction";
-import Transaction from "./Transaction";
+import StripeTransaction from './StripeTransaction'
+import Transaction from './Transaction'
 
 export default class StripeTransactionAdapter implements Transaction {
-  trackNumber: string;
-  amount: number;
-  status: string;
+  trackNumber: string
+  amount: number
+  status: string
 
   constructor (stripeTransaction: StripeTransaction) {
     this.trackNumber = stripeTransaction.code

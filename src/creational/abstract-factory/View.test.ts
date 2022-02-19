@@ -1,6 +1,6 @@
-import DarkThemeFactory from "./DarkThemeFactory"
-import LightThemeFactory from "./LightThemeFactory"
-import View from "./View"
+import DarkThemeFactory from './DarkThemeFactory'
+import LightThemeFactory from './LightThemeFactory'
+import View from './View'
 
 it('should create a light theme view', () => {
   const view = new View(new LightThemeFactory())

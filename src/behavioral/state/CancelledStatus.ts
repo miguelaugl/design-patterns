@@ -1,5 +1,5 @@
-import Order from "./Order";
-import OrderStatus from "./OrderStatus";
+import Order from './Order'
+import OrderStatus from './OrderStatus'
 
 export default class CancelledStatus extends OrderStatus {
   value: string
@@ -8,7 +8,7 @@ export default class CancelledStatus extends OrderStatus {
     super(order)
     this.value = 'cancelled'
   }
-  
+
   confirm (): void {
     throw new Error('Order is cancelled')
   }

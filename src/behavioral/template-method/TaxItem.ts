@@ -1,4 +1,4 @@
-import Item from "./Item";
+import Item from './Item'
 
 export default abstract class TaxItem extends Item {
   constructor (readonly category: string, readonly description: string, readonly price: number) {
@@ -10,5 +10,5 @@ export default abstract class TaxItem extends Item {
     return this.price * this.getTax() / 100
   }
 
-  abstract getTax(): number
+  abstract getTax (): number
 }

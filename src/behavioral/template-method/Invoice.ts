@@ -1,10 +1,8 @@
-import Item from "./Item";
-import TaxItem from "./TaxItem";
+import Item from './Item'
+import TaxItem from './TaxItem'
 
 export default class Invoice {
   items: Item[] = []
-
-  constructor () {}
 
   addItem (item: Item) {
     this.items.push(item)
@@ -13,7 +11,8 @@ export default class Invoice {
   getTaxes () {
     return this.items.reduce((total, item) => {
       const tax = item instanceof TaxItem ? item.calculateTax() : 0
-      return total += tax
+      total += tax
+      return total
     }, 0)
   }
 }

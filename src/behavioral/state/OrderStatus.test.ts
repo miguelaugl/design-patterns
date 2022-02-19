@@ -1,4 +1,4 @@
-import Order from "./Order"
+import Order from './Order'
 
 test('should create an Order with pending status', () => {
   const order = new Order()

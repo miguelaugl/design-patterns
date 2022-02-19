@@ -1,5 +1,5 @@
-import OrderStatus from "./OrderStatus"
-import PendingStatus from "./PendingStatus"
+import OrderStatus from './OrderStatus'
+import PendingStatus from './PendingStatus'
 
 export default class Order {
   status: OrderStatus

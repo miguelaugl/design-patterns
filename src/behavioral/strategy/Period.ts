@@ -1,15 +1,15 @@
 export default class Period {
-	constructor (readonly startDate: Date, readonly endDate: Date) {}
+  constructor (readonly startDate: Date, readonly endDate: Date) {}
 
-	getDiffInMilli () {
-		return this.endDate.getTime() - this.startDate.getTime();
-	}
+  getDiffInMilli (): number {
+    return this.endDate.getTime() - this.startDate.getTime()
+  }
 
-	getDiffInHours () {
-		return ((this.getDiffInMilli())/(1000*60*60));
-	}
+  getDiffInHours (): number {
+    return ((this.getDiffInMilli()) / (1000 * 60 * 60))
+  }
 
-	getDiffInDays () {
-		return ((this.getDiffInMilli())/(1000*60*60*24));
-	}
+  getDiffInDays (): number {
+    return ((this.getDiffInMilli()) / (1000 * 60 * 60 * 24))
+  }
 }

@@ -1,7 +1,7 @@
-import Order from "./Order";
+import Order from './Order'
 
 export default abstract class OrderStatus {
-  order: Order;
+  order: Order
   abstract value: string
 
   constructor (order: Order) {

@@ -1,5 +1,5 @@
-import Period from "./Period";
+import Period from './Period'
 
 export default interface TicketCalculator {
-	calculate (period: Period): number;
+  calculate: (period: Period) => number
 }
